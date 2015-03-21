@@ -1,0 +1,24 @@
+Vagrants boxes : https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=ubuntu
+
+Youtube video : https://www.youtube.com/watch?v=crvJ2C7Hr_g
+
+External shell scripts: http://docs.vagrantup.com/v2/provisioning/shell.html
+
+Issues npm: https://github.com/npm/npm/issues/5874
+
+Share folder (npm needs this): https://github.com/mitchellh/vagrant/issues/713
+Virtual box ticket (explaining why): https://www.virtualbox.org/ticket/10085#comment:12
+Related link: http://stackoverflow.com/questions/21648068/error-installing-bower-via-npm-on-vagrant-under-windows
+
+Note:
+-----
+cmd: VBoxManage setextradata VM_NAME VBoxInternal2/SharedFoldersEnableSymlinksCreate 1
+     - This allows for shared folders...
+
+YES! (npm on virtualbox via vagrant): http://serverfault.com/questions/588811/npm-install-on-vagrant-virtualbox
+
+Setting the npm registry: http://stackoverflow.com/questions/12913141/message-failed-to-fetch-from-registry-while-trying-to-install-any-module
+
+Node needs curl installed? : http://stackoverflow.com/questions/17247576/not-able-to-install-bower-using-npm-on-ubuntu-13-04
+
+Changing user permission FTW (npm installs): http://stackoverflow.com/questions/22152162/npm-cannot-install-dependencies-attempt-to-unlock-something-which-hasnt-been

@@ -1,0 +1,13 @@
+Instructions on ssh into my VM
+-------------------------------
+
+  ssh -l _username_ -p 2222 127.0.0.1
+
+  Note: I need to add my host ip address to the NAT port forwarding rule so that only this computer can ssh into the VM.
+
+Websites used:
+--------------
+
+  1. https://nsrc.org/workshops/2014/sanog23-virtualization/raw-attachment/wiki/Agenda/ex-virtualbox-portforward-ssh.htm
+
+  2. http://www.cyberciti.biz/faq/ubuntu-linux-openssh-server-installation-and-configuration/
