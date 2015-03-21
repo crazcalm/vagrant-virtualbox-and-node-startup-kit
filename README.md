@@ -10,11 +10,8 @@
 #Vagrant:
     Read the docs: https://docs.vagrantup.com/v2/
     
-#Notes:
-    - I will not teach you how to use vagrant. If you have any
-      questions about vagrant, please see the vagrant docs.
-      
-    - Virtualbox does not allow internal VM file sharing by default
+#Notes:  
+    - Virtualbox disables a feature involving symbolic links by default:
         - More details: https://www.virtualbox.org/ticket/10085#comment:12
         - To enable this feature run:
             - VBoxManage setextradata VM_NAME VBoxInternal2/SharedFoldersEnableSymlinksCreate 1
